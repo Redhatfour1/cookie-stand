@@ -1,0 +1,17 @@
+h1 {
+  font-family: cursive;
+  font-style: normal;
+  color: black;
+  margin-left: 950px;
+}
+
+
+body {
+  background:'salmon.png';
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+background {
+      max-width: 100%;
+      border-radius: 50%;
