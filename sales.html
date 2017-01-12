@@ -9,10 +9,12 @@
       <form id="salesForm">
         <fieldset>
           <legend>Sales Form</legend>
-          <label for="locName">Location Name:</label>
-          <input name="locName" id="locNameInput" type="text"/>
-          <label for="storeManager">Store Manager:</label>
-          <input name="storeManager" id="storeManagerInput" type="text"/>
+          <label for="minNumCust">Minimum Customer Per Hour:</label>
+          <input name="minNumCust" id="minNumCustInput" type="number"/>
+          <label for="maxNumCust">Maximum Customer Per Hour:</label>
+          <input name="maxNumCust" id="minNumCustInput" type="number"/>
+          <label for="aveCookPerSale">Average Cookies Per Sale:</label>
+          <input name="aveCookPerSale" id="aveCookPerSaleInput" type="number"/>
           <button id="submitButton" type="submit">SUBMIT</button>
         </fieldset>
       </form>
@@ -21,67 +23,10 @@
       <thead>
         <tr>
           <th></th>
-          <th></th>
-          <th>Times</th>
-          <th>6:00am</th>
-          <th>7:00am</th>
-          <th>8:00am</th>
-          <th>9:00am</th>
-          <th>10:00am</th>
-          <th>11:00am</th>
-          <th>12:00pm</th>
-          <th>1:00pm</th>
-          <th>2:00pm</th>
-          <th>3:00pm</th>
-          <th>4:00pm</th>
-          <th>5:00pm</th>
-          <th>6:00pm</th>
-          <th>7:00pm</th>
-          <th>8:00pm</th>
-        </tr>
-      </thead>
-
-      <thead>
-        <tr></tr>
-      </thead>
-      <thead>
-        <tr>
-          <th>Stores</th>
-        </tr>
-      </thead>
-      <thead>
-        <tr>
-          <th>First and Pike</th>
-        </tr>
-      </thead>
-      <thead>
-        <tr>
-          <th>SeaTac</th>
-        </tr>
-      </thead>
-      <thead>
-        <tr>
-          <th>Seattle Center</th>
-        </tr>
-      </thead>
-      <thead>
-        <tr>
-          <th>Capitol Hill</th>
-        </tr>
-      </thead>
-      <thead>
-        <tr>
-          <th>Alki</th>
-        </tr>
-      </thead>
-      <thead>
-        <tr>
-          <th>totals</th>
         </tr>
       </thead>
     </table>
     <header>
-
       <aside>
         <nav>
           <ul>
@@ -97,20 +42,7 @@
       </p>
     </h1>
         <h2></h2>
-        <!--<h3>First and Pike</h3>
-        <ul id="firstAndPike"></ul>
-        <h3>SeaTac</h3>
-        <ul id="SeaTac"></ul>
-        <h3>Seattle Center</h3>
-        <ul id="seattleCenter"></ul>
-        <h3>Capitol Hill</h3>
-        <ul id="capitolHill"></ul>
-        <h3>Alki</h3>
-        <ul id="alki"></ul>-->
     <script src="sales.js"></script>
   </body>
-
-
   </head>
-
 </html>
